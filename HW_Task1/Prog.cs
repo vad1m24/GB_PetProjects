@@ -1,12 +1,14 @@
 Console.Clear();
 
 int Prompt(string message)
+
 {
     System.Console.Write(message);
     int number = Convert.ToInt32(Console.ReadLine());
     return number;
 }
-int number = Prompt ("Пользователь, введите число N = ");
+
+int number = Prompt ("Введите значение N = ");
 
 void NaturalNumbers(int num)
 {
